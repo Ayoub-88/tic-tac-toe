@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1 id="title">Tic Tac Toe</h1>
+        <h3 id="sub-title">The most famous game of all time!</h3>
+        <div id="main-game">
+            <div class="row row1">
+                <button data-index="0" data-empty="true"></button>
+                <button class="center" data-index="1" data-empty="true"></button>
+                <button data-index="2" data-empty="true" ></button>
+            </div>
+            <div class="row row2">
+                <button data-index="3" data-empty="true"></button>
+                <button class="center" data-index="4"  data-empty="true"></button>
+                <button data-index="5"  data-empty="true"></button>
+            </div>
+            <div class="row row3">
+                <button data-index="6" data-empty="true" ></button>
+                <button class="center" data-index="7" data-empty="true" ></button>
+                <button data-index="8"  data-empty="true"></button>
+            </div>
+        </div>
+        <div id="display">
+            <h1 id="inner-display">player 'X' turn </h1>
+        </div>
+        <button type="button" id="btn"><h1>Restart</h1></button>
+    </main>
+</body>
+</html>
